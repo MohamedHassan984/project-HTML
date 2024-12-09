@@ -1,0 +1,81 @@
+<html>
+<head>
+<title>
+    Registration page
+</title>
+</head>
+<body>
+    <form action="Thankyou.html" method="get">
+
+       <center>
+           <input type="hidden" id="User ID" name="User ID" value="1">
+           <br>
+           <br>
+           <input type="text" placeholder="First name" name="First name" autofocus tabindex="1" required>
+           <br>
+           <br>
+           <input type="text" placeholder="Last Name" name="Last Name" required>
+           <br>
+           <br>
+           <input type="email" placeholder="Email" name="Email" required>
+           <br>
+           <br>
+           <input type="password" placeholder="Password" name="Password" required>
+           <br>
+           <br>
+           <input type="password" placeholder="Repeat Password" name="Repeat Password" required>
+           <br>
+           <br>
+           <input type="date" placeholder="Birth Date" name="Birth Date" required>
+           <br>
+           <br>
+           <input type="file" name="profilePicture" accept=".png,.jpg">
+           <br>
+           <br>
+           <label for="male">Male :</label>
+           <input type="radio" id="male" name="gender" value="male" >
+           <label>Female :</label>
+           <input type="radio" name="gender" value="female" >
+           <label for="Custom"> Custom</label>
+           <input type="radio"  name="Custom" value="Custom">
+           <br>
+           <br>
+        <select name="Faculty" >
+            <option disabled selected > select your Faculty</option>
+            <option value="modern" >Modern Academy</option>
+            <option value="Cairo">Cairo University</option>
+            <option  value="helwan">helwan  University</option>
+            <option value="ainshams">ainshams University</option>
+        </select>
+           <br>
+           <br>
+           <p>Select Your Interests </p>
+            <label>Programming</label>
+            <input type="checkbox" name="Interests" value="Programming">
+            <label> reading</label>
+            <input type="checkbox" name="Interests" value="reading">
+            <label>swimming</label>
+            <input type="checkbox" name="Interests" value="swimming">
+            <br>
+            <br>
+            <p>What about you ? </p>
+            <textarea name="about you" id="about you" rows="5" cols="50"></textarea>
+            <br>
+            <br>
+            <label> I agreed to terms and condition</label>
+            <input type="checkbox" name="agreed" value="agreed" required>
+            <br>
+            <br>
+            <input type="submit" value="login">
+            <input type="reset" value="reset">
+            <br>
+            <br>
+            <iframe src="https://www.youtube.com/embed/q3yFo-t1ykw" frameborder="0" width="600" height="400"></iframe>
+            <br>
+            <br>
+           
+        </center>
+    </form>
+    </body>
+
+</html>
